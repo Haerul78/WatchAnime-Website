@@ -1,0 +1,30 @@
+body{
+    background-color: bisque;
+    padding: 0;
+    margin: 0;
+}
+
+.main-body{
+    display: flex;
+    align-items: stretch;
+}
+
+.sidebar{
+    background-color: green;
+    /* width: 20vw; */
+    flex-grow: 1;
+    
+}
+
+.main-container{
+    flex-grow: 15;
+    margin: 10px;
+}
+
+.search-container{
+    width: 100%;
+}
+
+.search-box{
+    width: 100%;
+}
