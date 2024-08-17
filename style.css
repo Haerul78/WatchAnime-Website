@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 :root{
+    --font-primary: 'Noto Sans', sans-serif;
+    --font-secondery: 'PT Sans', serif;
     --jingga : #eb8934;
-    --putih : #f5f5f5;
+    --putih : #e4e4e4;
     --ungu : #bf0bbc;
     --abu : #171617;
 }
@@ -9,8 +13,21 @@ body{
     background-color: var(--abu);
     padding: 0;
     margin: 0;
+    font-family: var(--font-primary);
     height: 100vh;
     display: flex;
+}
+
+.titleWeb{
+    text-align: center;
+    font-family: var(--font-secondery);
+    font-size: 40px;
+    margin: auto;
+    margin-top: 18px;
+    padding: 10px 0 0 0;
+    border-radius: 15px;
+    width: 90%;
+    background-color: var(--abu);
 }
 
 .main-body{
@@ -20,11 +37,6 @@ body{
     flex-grow: 1;
 }
 
-.sidebar ul li, a{
-    text-decoration: none;
-    list-style-type: none;
-    color: inherit;
-}
 
 .sidebar{
     background-color: var(--jingga);
@@ -32,6 +44,32 @@ body{
     flex-grow: 2;
     height: 100%;
     color: var(--putih);
+    border-radius: 0 20px 20px 0;
+}
+
+.sidebar ul{
+    margin-top: 30px;
+}
+
+.sidebar ul li a{
+    text-decoration: none;
+    color: inherit;
+    font-family: var(--font-primary);
+    /* transform: translateX(60px); */
+    transition: color 0.2s ease-in-out;
+}
+
+.sidebar ul li{
+    margin-bottom: 10px;
+    list-style-type: none;
+    transform: none;
+    transition: transform 0.3s ease-in-out;
+    font-size: 16px;
+}
+
+.sidebar ul li:hover{
+    color: white;
+    transform: translateX(10px);
 }
 
 .main-box{
@@ -52,5 +90,10 @@ body{
     width: 100%;
     height: 40px;
     box-sizing: border-box;
-    
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: #ffffff1e;
+    color: var(--putih);
+    padding: 10px;
 }
