@@ -1,0 +1,11 @@
+{
+    "anime" : [
+        {
+            "title" : "Fieren: Beyond Journey's End",
+            "episode" : 28,
+            "picture" : "Anime/138006.jpg",
+            "studio" : "Madhouse",
+            "genre" : ["Adventure", "Drama", "Fantasy"]
+        }
+    ]
+}
