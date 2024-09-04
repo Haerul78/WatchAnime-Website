@@ -16,6 +16,7 @@ body{
     font-family: var(--font-primary);
     height: 100vh;
     display: flex;
+    overflow-x: hidden;
 }
 
 .titleWeb{
@@ -32,6 +33,7 @@ body{
 
 .main-body{
     display: flex;
+    gap: 20px;
     width: 100%;
     height: 100%;
     flex-grow: 1;
@@ -40,18 +42,21 @@ body{
 
 .sidebar{
     background-color: var(--jingga);
-    /* width: 20vw; */
-    flex-grow: 2;
+    width: 300px;
+    /* width: ; */
+    /* max-width: 40vw; */
+    /* flex-grow: 1; */
+    flex-shrink: 0;
     height: 100%;
     color: var(--putih);
     border-radius: 0 20px 20px 0;
+    position: relative;
+    top: 0;
 }
 
 .sidebar ul{
     margin-top: 30px;
 }
-
-
 
 .sidebar ul li a{
     text-decoration: none;
@@ -75,17 +80,18 @@ body{
 }
 
 .main-box{
-    flex-grow: 15;
+    flex-grow: 10;
     /* margin: 10px; */
     padding: 10px;
     box-sizing: border-box;
-    
+    height: 100vh;
+    overflow: hidden;
 }
 
 .search-container{
     width: 100%;
     max-width: 30vw;
-    margin: auto;
+    margin: 10px auto 20px auto;
 }
 
 .search-box{
@@ -98,4 +104,169 @@ body{
     background-color: #ffffff1e;
     color: var(--putih);
     padding: 10px;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none; /* Menghilangkan tombol X di Chrome/Safari/Opera */
+    appearance: none;
+}
+
+#search_anime {
+    margin-top: 10px;
+    color: var(--putih); /* Sesuaikan dengan tema */
+    font-size: 14px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: flex-start ;
+    margin-bottom: 50px;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0);
+    color: var(--putih);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 240px; /* Lebar kartu */
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+}
+
+.card-container-wrapper {
+    height: calc(100vh - 60px); /* Sesuaikan tinggi card-container agar sesuai dengan tinggi main-box */
+    overflow-y: auto; /* Tambahkan scroll hanya pada card-container */
+    padding-right: 10px; /* Opsional: Untuk memberikan ruang agar scroll bar tidak menutupi konten */
+}
+
+.card-container-wrapper::-webkit-scrollbar {
+    display: none; /* Sembunyikan scrollbar di Chrome, Safari, Opera */
+}
+
+.card img {
+    width: 100%;  /* Pastikan gambar memenuhi lebar kartu */
+    height: 320px;  /* Tetapkan tinggi gambar agar konsisten */
+    object-fit: cover;  /* Potong gambar jika perlu untuk menjaga rasio */
+    /* border-bottom: 2px solid #ddd; */
+}
+
+.card h2 {
+    font-size: 18px; /* Ukuran font judul */
+    margin: 5px 0;
+}
+
+/* Modal CSS */
+.modal {
+    display: none; /* Tersembunyi secara default */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5); /* Latar belakang hitam semi-transparan */
+}
+
+.modal-content {
+    background-color: white;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    /* max-width: 90%; */
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: row;
+    position: relative; /* Posisi relatif untuk mengatur posisi anak-anak */
+    z-index: 1001; /* Memastikan konten modal ada di depan */
+}
+
+.close {
+    color: #aaa;
+    position: absolute; /* Posisi absolut agar bisa ditempatkan tepat di sudut */
+    right: 20px; /* Jarak dari sisi kanan */
+    top: 10px; /* Jarak dari sisi atas */
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 1002; /* Pastikan tombol berada di depan elemen lainnya */
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-body {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+#modal-image {
+    width: 55%;
+    /* width: 10vw; */
+    height: 45vh;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+#modal-details {
+    flex-grow: 1;
+}
+
+#modal-details p {
+    margin: 10px 0;
+}
+
+#episode-container {
+    margin-top: 20px;
+}
+
+#episode-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 0;
+    list-style-type: none;
+}
+
+#episode-list li {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+#episode-list li:hover {
+    background-color: var(--jingga);
+}
+
+#pagination-controls {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#pagination-controls button {
+    background-color: var(--jingga);
+    color: var(--putih);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#pagination-controls button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
 }

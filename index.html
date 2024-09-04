@@ -13,20 +13,43 @@
             <p class="titleWeb">WatchAnime</p>
             <div class="link-container">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#"><i class="fa-solid fa-bars"></i> Category</a></li>
-                    <li><a href="#">About us</a></li>
+                    <li>Home</li>
+                    <li><i class="fa-solid fa-bars"></i> Category</li>
+                    <li>About us</li>
                 </ul>
             </div>
             <p class="copyright">&#169;</p>
         </div>
         <div class="main-box">
             <div class="search-container">
-                <input type="search" name="" id="" class="search-box">
+                <input type="search" name="search" id="search-box" class="search-box" placeholder="Cari">
+                <p id="search_anime"></p>
             </div>
-            <div class="main-container">
-                <p>ini main</p>
-                <img src="Anime/138006.jpg" alt="">
+            <div class="card-container-wrapper">
+                <div id="card-container" class="card-container">
+                    <!-- Cards akan ditambahkan secara dinamis oleh JavaScript -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-body">
+                <img id="modal-image" src="" alt="Anime Image">
+                <div id="modal-details">
+                    <h2 id="anime-title"></h2>
+                    <p id="anime-description"></p>
+                    <!-- Episode Container -->
+                    <div id="episode-container">
+                        <ul id="episode-list"></ul>
+                        <div id="pagination-controls">
+                            <button id="prev-page" disabled>&lt; Prev</button>
+                            <button id="next-page">&gt; Next</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

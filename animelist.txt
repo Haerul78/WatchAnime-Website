@@ -1,0 +1,17 @@
+adventure :
+fieren(1-2), SAO(1-4, movie(1-2)), MyNeighborTotoro, jormungand, YuushaYamemasu, kino no tabi, unnamedMemory, solo leveling, ousamaRanking, Howl's Moving Castle
+
+Action :
+spyxfamily(1-2, movie), arknight, kny, jjk, chainsaw, fate, 86, mob psycho, akashic record, aot, takt op
+
+Drama :
+kimi no nawa, steins gate, re zero, violet, Rascal Does Not Dream of Bunny Girl Senpai, Classroom of the Elite, ReLIFE, Kimi ni Todoke: From Me to You, Plastic Memories, Weathering with You, I Want To Eat Your Pancreas
+
+Slice of life :
+Barakamon, Yuru Camp△, Tanaka-kun is Always Listless, Tamako Market, Non Non Biyori, Farming Life in Another World, Today's Menu for the Emiya Family, Deaimon: Recipe for Happiness, tensai ouji, Hyouka, The Helpful Fox Senko-san, Sweetness & Lightning
+
+romance :
+Your Lie in April, My Teen Romantic Comedy SNAFU, Horimiya, My Dress-Up Darling, Wotakoi: Love is Hard for Otaku, Blue Spring Ride, Monthly Girls' Nozaki-kun, Kokoro Connect, Akagami no Shirayuki-hime, Nagi no Asu kara, Josee the Tiger and the Fish, Tsuki ga Kirei, Engaged to the Unidentified, Remake Our Life!, The Ice Guy and His Cool Female Colleague
+
+fantasy :
+Akame ga Kill!, Overlord, Kyoukai no Kanata, Goblin Slayer, Mahoutsukai no Yome, Blood Blockade Battlefront, GATE, Owari no Seraph: Nagoya Kessen-hen, Grimgar: Ashes and Illusions, Rokka no Yuusha

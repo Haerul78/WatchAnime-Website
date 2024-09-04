@@ -2,10 +2,183 @@
     "anime" : [
         {
             "title" : "Fieren: Beyond Journey's End",
+            "type" : "TV",
             "episode" : 28,
-            "picture" : "Anime/138006.jpg",
+            "release_date" : "29 September 2023",
+            "picture" : "Anime/fieren.jpg",
             "studio" : "Madhouse",
             "genre" : ["Adventure", "Drama", "Fantasy"]
+        },
+        {
+            "title" : "Sword Art Online",
+            "type" : "TV",
+            "episode" : 25,
+            "release_date" : "8 July 2012",
+            "picture" : "Anime/sao.jpg",
+            "studio" : "A-1 Picture",
+            "genre" : ["Adventure", "Action", "Fantasy", "Romance"]
+        },
+        {
+            "title" : "Sword Art Online II",
+            "type" : "TV",
+            "episode" : 24,
+            "release_date" : "5 July 2014",
+            "picture" : "Anime/sao2.jpg",
+            "studio" : "A-1 Picture",
+            "genre" : ["Adventure", "Action", "Fantasy", "Romance"]
+        },
+        {
+            "title" : "Sword Art Online Movie: Oridinal Schale",
+            "type" : "Movie",
+            "episode" : 1,
+            "release_date" : "18 Febuary 2017",
+            "picture" : "Anime/sao-os.jpg",
+            "studio" : "A-1 Picture",
+            "genre" : ["Adventure", "Action", "Fantasy"]
+        },
+        {
+            "title" : "Sword Art Online: Alicization",
+            "type" : "TV",
+            "episode" : 24,
+            "release_date" : "7 October 2018",
+            "picture" : "Anime/93837.jpg",
+            "studio" : "A-1 Picture",
+            "genre" : ["Adventure", "Action", "Fantasy"]
+        },
+        {
+            "title" : "Sword Art Online: Alicization - War of Underworld",
+            "type" : "TV",
+            "episode" : 12,
+            "release_date" : "13 October 2019",
+            "picture" : "Anime/103417.jpg",
+            "studio" : "A-1 Picture",
+            "genre" : ["Adventure", "Action", "Fantasy"]
+        },
+        {
+            "title" : "Sword Art Online: Alicization - War of Underworld 2nd Season",
+            "type" : "TV",
+            "episode" : 11,
+            "release_date" : "12 July 2020",
+            "picture" : "Anime/105106.jpg",
+            "studio" : "A-1 Picture",
+            "genre" : ["Adventure", "Action", "Fantasy"]
+        },
+        {
+            "title" : "Sword Art Online the Movie: Progressive - Aria of a Starless Night",
+            "type" : "Movie",
+            "episode" : 1,
+            "release_date" : "30 July 2021",
+            "picture" : "Anime/116274.jpg",
+            "studio" : "A-1 Picture",
+            "genre" : ["Adventure", "Action", "Fantasy"]
+        },
+        {
+            "title" : "My Neighbour Tororo",
+            "type" : "Movie",
+            "episode" : 1,
+            "release_date" : "30 July 2021",
+            "picture" : "Anime/tororo.jpg",
+            "studio" : "Studio Ghibli",
+            "genre" : ["Adventure", "Award Winning", "Supernatural"]
+        },
+        {
+            "title" : "Jormungand",
+            "type" : "TV",
+            "episode" : 12,
+            "release_date" : "11 April 2012",
+            "picture" : "Anime/jormungand.jpg",
+            "studio" : "White Fox",
+            "genre" : ["Adventure", "Action"]
+        },
+        {
+            "title" : "I'm Quitting Heroing",
+            "type" : "TV",
+            "episode" : 12,
+            "release_date" : "21 April 2022",
+            "picture" : "Anime/i'mQuittingHeroing.jpg",
+            "studio" : "EMT Squared",
+            "genre" : ["Adventure", "Action", "Comedy", "Fantasy"]
+        },
+        {
+            "title" : "Kino's Journey-the Beautiful World- the Animated Series",
+            "type" : "TV",
+            "episode" : 12,
+            "release_date" : "6 October 2017",
+            "picture" : "Anime/KinonoTabi.jpg",
+            "studio" : "Lerche",
+            "genre" : ["Adventure", "Drama", "Fantasy"]
+        },
+        {
+            "title" : "Spy x Family",
+            "type" : "TV",
+            "episode" : 12,
+            "release_date" : "9 April 2022",
+            "picture" : "Anime/Spyxfamily.jpg",
+            "studio" : ["Wit Studio", "CloverWorks"],
+            "genre" : ["Action", "Award Winning", "Comedy"]
+        },
+        {
+            "title" : "Spy x Family Part 2",
+            "type" : "TV",
+            "episode" : 13,
+            "release_date" : "1 October 2022",
+            "picture" : "Anime/SpyxFamilyPart2.jpg",
+            "studio" : ["Wit Studio", "CloverWorks"],
+            "genre" : ["Action", "Award Winning", "Comedy"]
+        },
+        {
+            "title" : "Spy x Family Season 2",
+            "type" : "TV",
+            "episode" : 12,
+            "release_date" : "7 October 2023",
+            "picture" : "Anime/SpyxFamilyS2.jpg",
+            "studio" : ["Wit Studio", "CloverWorks"],
+            "genre" : ["Action", "Award Winning", "Comedy"]
+        },
+        {
+            "title" : "Spy x Family Movie: Code: White",
+            "type" : "Movie",
+            "episode" : 1,
+            "release_date" : "7 October 2023",
+            "picture" : "Anime/SpyxFamilymovie.jpg",
+            "studio" : ["Wit Studio", "CloverWorks"],
+            "genre" : ["Action", "Award Winning", "Comedy"]
+        },
+        {
+            "title" : "Unnamee Memory",
+            "type" : "TV",
+            "episode" : 12,
+            "release_date" : "9 April 2024",
+            "picture" : "Anime/UnnamedMemory.jpg",
+            "studio" : "ENGI",
+            "genre" : ["Adventure", "Fantasy", "Romance"]
+        },
+        {
+            "title" : "Solo Leveling",
+            "type" : "TV",
+            "episode" : 12,
+            "release_date" : "7 January 2024",
+            "picture" : "Anime/SoloLeveling.jpg",
+            "studio" : "A-1 Picture",
+            "genre" : ["Action", "Adventure", "Fantasy"]
+        },
+        {
+            "title" : "Ranking of King",
+            "type" : "TV",
+            "episode" : 23,
+            "release_date" : "15 October 2021",
+            "picture" : "Anime/OusamaOfRangking.jpg",
+            "studio" : "Wit Studio",
+            "genre" : ["Adventure", "Fantasy"]
+        },
+        {
+            "title" : "Howl's Moving Castle",
+            "type" : "Movie",
+            "episode" : 1,
+            "release_date" : "20 November 2004",
+            "picture" : "Anime/MovingCastle.jpg",
+            "studio" : "A-1 Picture",
+            "genre" : ["Adventure", "Award Winning", "Drama", "Fantasy", "Romance"]
         }
     ]
 }
