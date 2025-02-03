@@ -158,6 +158,37 @@ input[type="search"]::-webkit-search-cancel-button {
     margin: 5px 0;
 }
 
+.category-container {
+    display: none;
+    background-color: var(--abu);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.category-btn {
+    background-color: var(--jingga);
+    color: var(--putih);
+    width : 30vh;
+    height : 10vh;
+    font-weight: bold;
+    font-size: 24px;
+    border: none;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.category-btn:hover {
+    background-color: var(--ungu);
+}
+
 /* Modal CSS */
 .modal {
     display: none; /* Tersembunyi secara default */

@@ -1,4 +1,5 @@
 {
+    "genre" : ["Adventure", "Action", "Award Winning", "Comedy", "Drama", "Fantasy", "Romance", "Supernatural", "Slice of life"],
     "anime" : [
         {
             "title" : "Fieren: Beyond Journey's End",
@@ -179,6 +180,15 @@
             "picture" : "Anime/MovingCastle.jpg",
             "studio" : "A-1 Picture",
             "genre" : ["Adventure", "Award Winning", "Drama", "Fantasy", "Romance"]
+        },
+        {
+            "title" : "Barakamon",
+            "type" : "TV",
+            "episode" : 12,
+            "release_date" : "6 July 2014",
+            "picture" : "Anime/Barakamon.png",
+            "studio" : "Kinema Citrus",
+            "genre" : ["Slice of life"]
         }
     ]
 }
